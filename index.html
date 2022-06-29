@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Flexbox</title>
+  <link rel="stylesheet" href="style.css"> 
+</head>
+
+<body>
+  <h1>CSS Flexbox</h1>
+  <h2>CSS Flexbox Layout Module</h2>
+  <p>Before the Flexbox Layout module, there were four layout modes:</p>
+  <ul>
+    <li>Block, for sections in a webpage</li>
+    <li>Inline, for text</li>
+    <li>Table, for two-dimensional table data</li>
+    <li>Positioned, for explicit position of an element</li>
+  </ul>
+  <p>The Flexible Box Layout Module, makes it easier to design flexible responsive layout structure without using float or positioning.</p>
+  <hr>
+  <h2>Flexbox Elements</h2>
+  <p>To start using the Flexbox model, you need to first define a flex container.</p>
+  <div class="flex-container">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+  </div>
+
+  <br>
+
+  <h1>CSS Flex Container</h1>
+  <h2>Parent Element (Container)</h2>
+  <p>Like we specified in the previous chapter, this is a flex <strong>container</strong> (the blue area) with three flex <strong>items</strong>:</p>
+  <div class="flex-container2">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+  </div>
+  <p>The flex container becomes flexible by setting the <code>display</code> property to <code>flex</code>:</p>
+  <div class="flex-container3">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+  </div>
+  <p>The flex container properties are:</p>
+  <ul>
+    <li>flex-direction</li>
+    <li>flex-wrap</li>
+    <li>flex-flow</li>
+    <li>justify-content</li>
+    <li>align-items</li>
+    <li>align-content</li>
+  </ul>
+  <hr>
+  <br>
+  <hr>
+  <h2>The flex-direction Property</h2>
+  <p>The <code>flex-direction</code> property defines in which direction the container wants to stack the flex items.</p>
+  <div class="flex-container4">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+  </div>
+  <hr>
+  <h2>The flex-wrap Property</h2>
+  <p>The <code>flex-wrap</code> property specifies whether the flex items should wrap or not.<br>
+    <br>The examples below have 12 flex items, to better demonstrate the <code>flex-wrap</code> property.</p>
+  <div class="flex-container5">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
+    <div>7</div>
+    <div>8</div>
+    <div>9</div>
+    <div>10</div>
+    <div>11</div>
+    <div>12</div>
+  </div>
+  <hr>
+  <h2>The flex-flow Property</h2>
+  <p>The flex-flow property is a shorthand property for setting both the flex-direction and flex-wrap properties.</p>
+  <hr>
+  <br>
+  <hr>
+  <h2>The align-content Property</h2>
+  <p>The align-content property is used to align the flex lines.</p>
+  <hr>
+  <br>
+  <hr>
+  <h1>The CSS Flexbox Container Properties</h1>
+  <p>The following table lists all the CSS Flexbox Container properties:</p>
+  <table>
+    <tr>
+      <th>Property</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <td>align-content</td>
+      <td>Modifies the behavior of the flex-wrap property. It is similar to align-items, but instead of aligning flex items, it aligns flex lines</td>
+    </tr>
+    <tr>
+      <td>align-items</td>
+      <td>Vertically aligns the flex items when the items do not use all available space on the cross-axis</td>
+    </tr>
+    <tr>
+      <td>display</td>
+      <td>Specifies the type of box used for an HTML element</td>
+    </tr>
+    <tr>
+      <td>flex-direction</td>
+      <td>Specifies the direction of the flexible items inside a flex container</td>
+    </tr>
+    <tr>
+      <td>flex-flow</td>
+      <td>A shorthand property for flex-direction and flex-wrap</td>
+    </tr>
+    <tr>
+      <td>flex-wrap</td>
+      <td>Specifies whether the flex items should wrap or not, if there is not enough room for them on one flex line</td>
+    </tr>
+    <tr>
+      <td>justify-content</td>
+      <td>Horizontally aligns the flex items when the items do not use all available space on the main-axis</td>
+    </tr>
+  </table>
+</body>
+</html>
