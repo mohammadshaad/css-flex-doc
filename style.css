@@ -133,7 +133,6 @@ code {
 }
 
 table, th, td {
-    width: 100%;
     border-collapse: collapse;
     border: 1px solid;
 }
